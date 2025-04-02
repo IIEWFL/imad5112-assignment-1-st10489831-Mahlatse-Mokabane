@@ -8,7 +8,7 @@ https://github.com/IIEWFL/imad5112-assignment-1-st10489831-Mahlatse-Mokabane.git
 
 BELOW IS THE LINK TO MY YOUTUBE VIDEO
 
-
+https://youtu.be/tc7AKReSj3c
 
 THE PURPOSE:
 
@@ -39,17 +39,22 @@ To upload your Android Studio program to GitHub, you need to:
 *close your project on andriod studio, then right click the program you wish to move to Github and select open Git Bash here.
 
 *Then you will make use of the Git commands:
+* git init : This will initialize a new Git repository in your current directory.
+* git add . : This will stage all files in the directory for them to be commited.
+* git commit -m "Assignment 1" : This will save a snapshot of the changes in the local repository, the m flag allows you to add a commit message.
+* git  remote add origin https://github.com/IIEWFL/imad5112-assignment-1-st10489831-Mahlatse-Mokabane.git : This will link your repository, then you replace your <repository_link> with your URL of your repository.
+* git push origin main :This will attempt to upload local commits from the main branch to the remote repository.
+* git pull origin main --allow-unrelated-histories : This pulls changes from the remote main branch.
+* git push origin main : This pushes the local branch to the remote repository.
 
-~ git init : This will initialize a new Git repository in your current directory.
+SCREENSHOTS OF MY APPLICATION:
+![Enter the time of day](https://github.com/user-attachments/assets/5a059f37-4f92-44e3-bae3-1cbc5a65ac20)
+![TOAST POP UP](https://github.com/user-attachments/assets/0e1b0bc6-184b-4502-8991-58e4403ec692)
+![When you enter the wrong time of day](https://github.com/user-attachments/assets/cae82a91-7abc-490c-a768-4475d93427a7)
+![When you click recommend without any input](https://github.com/user-attachments/assets/de52c7f8-bd89-4c8e-b06b-b1516e4c3809)
 
-~ git add . : This will stage all files in the directory for them to be commited.
 
-~ git commit -m "Assignment 1" : This will save a snapshot of the changes in the local repository, the m flag allows you to add a commit message.
 
-~ git  remote add origin : This will link your repository, then you replace your <repository_link> with your URL of your repository.
 
-~ git push origin main :This will attempt to upload local commits from the main branch to the remote repository.
-
-~ git pull origin main --allow-unrelated-histories : This 
 
 
