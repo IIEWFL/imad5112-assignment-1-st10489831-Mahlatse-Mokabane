@@ -41,10 +41,15 @@ To upload your Android Studio program to GitHub, you need to:
 *Then you will make use of the Git commands:
 
 ~ git init : This will initialize a new Git repository in your current directory.
+
 ~ git add . : This will stage all files in the directory for them to be commited.
-~ git commit -m "First Commit" : This will save a snapshot of the changes in the local repository, the m flag allows you to add a commit message.
-~ git  remote add origin <repsitory_link> : This will link your repository, then you replace your <repository_link> with your URL of your repository.
+
+~ git commit -m "Assignment 1" : This will save a snapshot of the changes in the local repository, the m flag allows you to add a commit message.
+
+~ git  remote add origin : This will link your repository, then you replace your <repository_link> with your URL of your repository.
+
 ~ git push origin main :This will attempt to upload local commits from the main branch to the remote repository.
-~ git pull origin main --allow-unrelated-histories : This
+
+~ git pull origin main --allow-unrelated-histories : This 
 
 
