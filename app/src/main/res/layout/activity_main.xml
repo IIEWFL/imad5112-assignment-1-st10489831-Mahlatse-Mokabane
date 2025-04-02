@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- TextView with ID -->
+    <TextView
+        android:id="@+id/mealtimeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Mealtime Made Easy!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- TextView with ID -->
+    <TextView
+        android:id="@+id/hotdTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="Enter the hour of the day."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <!-- EditText with ID -->
+    <EditText
+        android:id="@+id/inputTxt"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Fill in here"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        android:textColorHint="@color/black"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+
+    <!-- Button with ID -->
+    <Button
+        android:id="@+id/recommendBtn"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Recommend"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- TextView with ID -->
+    <TextView
+        android:id="@+id/showTxt"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Button with ID -->
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="Reset"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- Button with ID -->
+    <Button
+        android:id="@+id/dismissBtn"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="48dp"
+        android:text="Dismiss"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- //Code attribution for background image
+//This image was taken from
+//Google 2025
+//https://shef.com/homemade-food/wp-content/uploads/tabletop-spread-of-authentic-indian-food.jpg -->
+
+
+</LinearLayout>
