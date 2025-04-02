@@ -39,6 +39,7 @@ To upload your Android Studio program to GitHub, you need to:
 *close your project on andriod studio, then right click the program you wish to move to Github and select open Git Bash here.
 
 *Then you will make use of the Git commands:
-~ git init : this will initi
+~ git init : this will initialize a new Git repository in your current directory.
+~ git add . : this will stage 
 
 
