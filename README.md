@@ -28,10 +28,17 @@ The app works very easily all you need to do is:
 
 *The app will then automatically recommend a meal for that specific time of day the user has entered
 
-*Then you click the reset button which will clear bothe the input and your display, and a toast message will pop up.
+*Then you click the reset button which will clear both the input and your display, and a toast message will pop up.
 
 *Then you will dismiss the app once you have got the recommendation for the meal of the given time of day.
 
 UTILIZATION OF GITHUB AND GITHUB ACTIONS:
+
+To upload your Android Studio program to GitHub, you need to:
+
+*close your project on andriod studio, then right click the program you wish to move to Github and select open Git Bash here.
+
+*Then you will make use of the Git commands:
+~ git init : this will initi
 
 
