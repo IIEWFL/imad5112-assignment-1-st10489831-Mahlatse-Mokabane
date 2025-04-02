@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/70UuwkKC)
 
-This README file will include my links to both my youtube video and the repository link to my code, and the purpose, the design of the app, how the app works, and the utilization of GitHub and GitHub Actions and screenshots of my app.
+This README file will include my links to both my youtube video and the repository link to my code, and the purpose of the app, the design of the app, how the app works, and the utilization of GitHub and GitHub Actions and screenshots of my app.
 
 BELOW IS THE LINK TO MY REPOSITORY
 
